@@ -1,5 +1,5 @@
 {
-  "open_ai_api_key": "YOUR API KEY",
+  "open_ai_api_key": "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",
   "model": "gpt-3.5-turbo",
   "proxy": "",
   "single_chat_prefix": [
@@ -11,17 +11,22 @@
     "@bot"
   ],
   "group_name_white_list": [
-    "ChatGPT测试群",
-    "ChatGPT测试群2"
+    "ChatGPT测试群", "Chatgpt-AI互动群", "Chatgpt-AI互动", "Chatgpt-AI"
   ],
   "group_chat_in_one_session": [
-    "ChatGPT测试群"
+    "ChatGPT测试群", "Chatgpt-AI互动群", "Chatgpt-AI互动", "Chatgpt-AI"
   ],
   "image_create_prefix": [
     "画",
     "看",
     "找"
   ],
+  "tools": ["wikipedia", "news","arxiv","image2text"],
+  "kwargs": {
+    "debug": true,
+    "request_timeout": 120,
+    "no_default": false
+  },
   "speech_recognition": false,
   "group_speech_recognition": false,
   "voice_reply_voice": false,
