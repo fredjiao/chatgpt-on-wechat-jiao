@@ -6,6 +6,9 @@
     "bot",
     "@bot"
   ],
+  "use_linkai": true,
+  "linkai_api_key": "Link_063RJw3B6yLGzVexAs2NdXVAlpOZiGlnbYUM9voZ54",
+  "linkai_app_code": "iVjinxRe",
   "single_chat_reply_prefix": "[bot] ",
   "group_chat_prefix": [
     "@bot"
